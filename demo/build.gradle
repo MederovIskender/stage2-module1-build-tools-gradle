@@ -1,4 +1,18 @@
 //add everything here
+plugins {
+    id 'java'
+}
+
+group 'com.mjcshool' // Replace with your desired group ID
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.example:utils:1.3.5'
+}
 
 test {
     useJUnitPlatform()
